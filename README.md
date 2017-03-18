@@ -25,3 +25,6 @@ fetch-cve = yes # change to yes
 fetch-cve-url = http://<internal_mirror.com>/oscap_oval-oscap_oval/ # set to internal repository
 fetch-cve-timeout = 600
 ```
+Results after running an atomic scan on a Docker image
+
+![scan image](/images/atomic_scan_image.jpg)
