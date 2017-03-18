@@ -22,6 +22,6 @@ https://www.redhat.com/security/data/oval/
 [CVEScanner]
 fetch-cve = yes # change to yes
 #fetch-cve-url = https://www.redhat.com/security/data/oval/
-fetch-cve-url = http://<internal_mirror.com>/oscap_oval-oscap_oval/ # set to interl repository
+fetch-cve-url = http://<internal_mirror.com>/oscap_oval-oscap_oval/ # set to internal repository
 fetch-cve-timeout = 600
 ```
