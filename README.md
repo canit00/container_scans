@@ -13,7 +13,7 @@ For disconnected environments you can mirror RH's oval definitions and point you
 https://www.redhat.com/security/data/oval/
 ```
 
-***configuration***
+***OpenScap configuration - Atomic Host***
 ```
 /etc/oscapd/config.ini
 ```
@@ -41,6 +41,6 @@ ssg = /usr/share/xml/scap/ssg/content
 [CVEScanner]
 fetch-cve = yes
 #fetch-cve-url = https://www.redhat.com/security/data/oval/
-fetch-cve-url = http://<internal_mirror.com/oscap_oval-oscap_oval/
+fetch-cve-url = http://<internal_mirror.com>/oscap_oval-oscap_oval/
 fetch-cve-timeout = 600
 ```
