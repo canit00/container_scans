@@ -8,12 +8,12 @@ sudo atomic install registry.access.redhat.com/rhel7/openscap
 ```
 For disconnected environments you can mirror RH's oval definitions and point your OpenScap scanner to your internal mirror.
 
-***URL***
+***[URL]***
 ```
 https://www.redhat.com/security/data/oval/
 ```
 
-***OpenScap configuration - Atomic Host***
+***[OpenScap configuration - Atomic Host]***
 ```
 /etc/oscapd/config.ini
 ```
