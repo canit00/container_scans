@@ -3,6 +3,12 @@ Information regarding tools and configurations to carry out Docker container sca
 
 #### Install Red Hat's OpenScap scanner via a container
 
+Please note that if you are sitting behind a proxy you'll need to run the following command prior to the install command.
+
+```
+export http_proxy=http://proxyserver.domain.com:8080
+```
+
 ```
 sudo atomic install registry.access.redhat.com/rhel7/openscap
 ```
